@@ -2,8 +2,6 @@
 
 Este projeto é uma implementação web do clássico Jogo da Velha, com um oponente de Inteligência Artificial que utiliza o algoritmo de **Q-Learning** para aprender e melhorar seu jogo de forma autônoma.
 
-*[Coloque um GIF do seu jogo funcionando aqui! Ex: ![Gameplay GIF](gameplay.gif)]*
-
 ## 🎯 Objetivo
 
 O objetivo principal deste projeto é demonstrar a aplicação prática de algoritmos de **Aprendizado por Reforço (Reinforcement Learning)** em um ambiente de jogo simples. A IA não possui regras pré-programadas de como jogar; em vez disso, ela desenvolve suas próprias estratégias através de treinamento, com um foco especial em um sistema de **"aprendizado por derrota"**, onde melhora seu desempenho a cada vez que perde para um jogador humano.
