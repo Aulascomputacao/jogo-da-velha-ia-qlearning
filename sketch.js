@@ -1,5 +1,5 @@
 /*
-  Autor: 
+  Autor: João Vitor Oliveira G. Santos
 */
 /// <reference types="p5/global" />
 
