@@ -1,5 +1,7 @@
 # 🤖 Jogo da Velha com IA de Aprendizado por Reforço
 
+**Autor: João Vitor Oliveira G. Santos**
+
 Este projeto é uma implementação web do clássico Jogo da Velha, com um oponente de Inteligência Artificial que utiliza o algoritmo de **Q-Learning** para aprender e melhorar seu jogo de forma autônoma.
 
 ## 🎯 Objetivo
