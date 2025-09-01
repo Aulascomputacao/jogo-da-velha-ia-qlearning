@@ -66,7 +66,7 @@ escolherAcao(tabuleiro, acoesDisponiveis) {
     const chaveTabuleiro = this.chaveTabuleiro(tabuleiro);
 
     if (Math.random() < this.epsilon) {
-        // --- LINHA CORRIGIDA ABAIXO ---
+        
         const indexAleatorio = Math.floor(Math.random() * acoesDisponiveis.length);
         return acoesDisponiveis[indexAleatorio];
 
@@ -82,7 +82,6 @@ escolherAcao(tabuleiro, acoesDisponiveis) {
             }
         }
         
-        // SUGESTÃO: Adicionar a trava de segurança que discutimos, para mais robustez
         if (melhorAcao === -1) {
             const indexAleatorio = Math.floor(Math.random() * acoesDisponiveis.length);
             return acoesDisponiveis[indexAleatorio];
