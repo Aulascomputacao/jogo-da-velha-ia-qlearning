@@ -23,32 +23,21 @@ O objetivo principal deste projeto é demonstrar a aplicação prática de algor
 * **p5.js:** Biblioteca principal para o desenho no canvas, interatividade e gerenciamento do loop de jogo.
 * **p5.dom.js:** Extensão da `p5.js` utilizada para a criação e manipulação de elementos HTML, como os botões.
 * **HTML5 & CSS:** Para a estrutura da página e estilização dos elementos via JavaScript.
-* **Node.js & npm (Ambiente de Desenvolvimento):** Utilizados para gerenciar as dependências do projeto e rodar um servidor local.
 
 ## ⚙️ Como Executar
 
-Este projeto utiliza o Node.js e o npm para gerenciar suas dependências.
+O projeto é "frontend puro" e precisa apenas de um navegador para ser executado. No entanto, devido às políticas de segurança dos navegadores modernos (CORS), os arquivos não podem ser abertos diretamente do sistema de arquivos. É necessário um servidor web local.
 
-1.  **Clone o Repositório:**
-    ```bash
-    git clone https://[URL_DO_SEU_REPOSITORIO_NO_GITHUB]
-    ```
+A forma mais simples de fazer isso é:
 
-2.  **Instale as Dependências:**
-    Navegue até a pasta do projeto no seu terminal e execute o comando:
-    ```bash
-    npm install
-    ```
-    Este comando irá ler o arquivo `package.json` e baixar todas as ferramentas necessárias para a pasta `node_modules`.
+1.  **Baixe ou clone os arquivos** do projeto para uma pasta no seu computador.
+2.  Se você usa o **Visual Studio Code**, instale a extensão **"Live Server"**.
+3.  Com a extensão instalada, clique com o botão direito no arquivo `index.html` e selecione **"Open with Live Server"**.
+4.  O jogo será aberto automaticamente no seu navegador.
 
-3.  **Inicie o Servidor de Desenvolvimento:**
-    O `package.json` geralmente contém um script para iniciar o projeto. O comando mais comum é:
-    ```bash
-    npm start
-    ```
-    Isso deve iniciar um servidor local e abrir o jogo automaticamente no seu navegador.
+A estrutura do `index.html` já está configurada para carregar os scripts na ordem correta.
 
-> **Nota Importante:** Lembre-se de criar um arquivo `.gitignore` na raiz do seu projeto e adicionar a linha `node_modules` dentro dele para evitar enviar essa pasta gigante para o GitHub.
+> **Nota sobre o Repositório:** Este projeto contém arquivos como `package.json`, indicando que um ambiente Node.js pode ser usado para desenvolvimento. Um arquivo `.gitignore` está incluído para garantir que a pasta `node_modules` não seja enviada ao repositório, seguindo as boas práticas.
 
 ## 🧠 Estrutura e Funcionamento
 
